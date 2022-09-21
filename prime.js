@@ -4,8 +4,7 @@ let Factor=0
 for(i=1;i<=num;i++){
     if(num%i==0){
        Factor++
-    }
-}
+       }
 
 if(Factor===2){
     console.log(num,"is a Prime Number")
